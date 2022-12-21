@@ -1,0 +1,150 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>Fake Profile Detection System</title>
+
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="{% static 'css/materialize.css' %}" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="{% static 'static/css2/style.css' %}" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+
+<body>
+  <div class="section no-pad-bot" id="index-banner">
+    <div class="container">
+      <br><br>
+      <h1 class="header center orange-text">Fake Profile Detection Systen</h1>
+      <div class="row center">
+        <h5 class="header col s12 light">Predict whether the profile is fake or not
+        <br>
+        </h5>
+      </div>
+
+    <div class="row">
+
+      <center>
+      <button class="btn-large waves-effect waves-light orange" onclick="window.location.href = '/tweet';">check twitter profile</button>
+      <button class="btn-large waves-effect waves-light orange" onclick="window.location.href = '/insta';">check Instagram profile</button>
+      </div>center>
+
+    <form action="{% url 'detect' %}" method="post" class="col s12">
+      {% csrf_token %}
+      {% if msg %}
+				<center>				
+        <div class="alert alert-danger" role="alert">
+            <!-- <span aria-hidden="true">×</span>
+            <span class="sr-only">Check profile</span> -->
+        </input>
+          <strong>{{msg}}</strong>
+        </div>
+      </center>
+			{% endif %}
+
+      <div class="row">
+        <div class="input-field col s4">
+
+
+            <label for="status"><b>status Count</b></label>
+            <br>
+          <input required  placeholder="User Status" name="status" id="status" type="number" class="validate">
+        </div>
+        <div class="input-field col s4">
+
+          <label for="followers"><b>followers Count</b></label>
+            <br>
+          <input required id="followers" name="followers" placeholder="user followers"  type="number" class="validate">
+
+        </div>
+
+        <div class="input-field col s4">
+
+          <label for="friends"><b>Friends Count</b></label>
+            <br>
+          <input required id="friends" name="friends" placeholder="user friends"  type="number" class="validate">
+
+        </div>
+
+        <div class="input-field col s4">
+
+          <label for="fav"><b>fav </b></label>
+            <br>
+          <input required id="fav" name="fav" placeholder="user fav"  type="number" class="validate">
+
+        </div>
+
+        <div class="input-field col s4">
+
+          <label for="lang_num"><b>lang_num</b></label>
+            <br>
+          <input required id="lang_num" name="lang_num" placeholder="user lang_num"  type="number" class="validate">
+
+        </div>
+
+        <div class="input-field col s4">
+
+          <label for="listed_count"><b>listed count</b></label>
+            <br>
+          <input required id="listed_count" name="listed_count" placeholder="user listed_count"  type="number" class="validate">
+
+        </div>
+
+        <div class="input-field col s4">
+
+          <label for="geo"><b>geo</b></label>
+            <br>
+          <input required id="geo" pattern="0|1" name="geo" placeholder="user geo(0.0 or 1.0)"  type="number" class="validate">
+
+        </div>
+
+        <div class="input-field col s4">
+            <label for="pic"><b>pic</b></label>
+            <br>
+          <input required id="pic" pattern="0|1" name="pic" placeholder="user has pic(0.0 or 1.0)" type="number" class="validate">
+
+        </div>
+
+      </div>
+
+      <div class="row center">
+
+          <input type=submit value="Check Profile" class="btn-large waves-effect waves-light orange"></input>
+      </div>
+    </form>
+      </div>
+
+      <br>
+      <br>
+
+    </div>
+  </div>
+
+
+    <br><br>
+  </div>
+  </div>
+
+  <footer class="page-footer orange">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Fake Profile Detection System</h5>
+          <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
+      </div>
+    </div>
+    
+  </footer>
+
+
+  <!--  Scripts-->
+  
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="{% static 'js/materialize.js' %}"></script>
+  <script src="{% static 'js/init.js' %}"></script>
+
+</body>
+</html>
+
