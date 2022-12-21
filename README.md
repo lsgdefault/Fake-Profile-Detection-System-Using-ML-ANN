@@ -32,7 +32,4 @@ Step 4- project on server:- (myvenv) E:\FPD>python manage.py runserver
 The above mentioned requirements.txt file is already provided with project.
 
 After following the above given steps, you are good to go and can run this astonishing project.
-
-      
-<!-- </> with 💛 by readMD (https://readmd.itsvg.in) -->
     
