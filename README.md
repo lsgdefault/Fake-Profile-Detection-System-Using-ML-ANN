@@ -7,7 +7,7 @@
 Fake Detection System Using Machine Learning(ANN).
 This Project is a fake profile detection system for social media.
 
-#Features
+#**Features**
 
 	•Supports Twitter for profile detection & check
 	•Supports Instagram for profile detection  & check
@@ -17,6 +17,7 @@ This Project is a fake profile detection system for social media.
 # Tech Used
  ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white) ![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![Bootstrap](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
       
+# Installation
 This is to inform you that to run this project you need to create "Virtual Environment". Virtual Environment provides an isolation environment for python files.
 
 The following steps will guide you to create Virtutal Environment and this code should be executed in cmd and directory will be the folder in which you stored this project.
