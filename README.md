@@ -9,10 +9,8 @@ This Project is a fake profile detection system for social media.
 
 Supports
 
-	•Supports Twitter
-
-	•Supports Instagram
-
+	•Supports Twitter for profile detection & check
+	•Supports Instagram for profile detection  & check
 	•Can Add your own user data to check
 
 
