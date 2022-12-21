@@ -7,7 +7,7 @@
 Fake Detection System Using Machine Learning(ANN).
 This Project is a fake profile detection system for social media.
 
-Supports
+#Features
 
 	•Supports Twitter for profile detection & check
 	•Supports Instagram for profile detection  & check
