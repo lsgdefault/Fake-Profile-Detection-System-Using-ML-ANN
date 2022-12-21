@@ -24,7 +24,7 @@ The following steps will guide you to create Virtutal Environment and this code 
 	
 For instance, my directory is E:\FPD
 
-Step 1- creating virtutal environment as myvenv:- E:\FPD>python -m venv myvenv 
+Step 1- creating virtutal environment as myvenv:- E:\FPD>python -m venv myvenv
 Step 2- activating virtual environment:- E:\FPD>myvenv\Scripts\activate
 Step 3- installing requirement files to run this project:- (myvenv) E:\FPD>pip install -r requirements.txt
 Step 4- project on server:- (myvenv) E:\FPD>python manage.py runserver
