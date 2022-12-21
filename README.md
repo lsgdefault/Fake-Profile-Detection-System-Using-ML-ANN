@@ -9,11 +9,11 @@ This Project is a fake profile detection system for social media.
 
 Supports
 
-•Supports Twitter
+	•Supports Twitter
 
-•Supports Instagram
+	•Supports Instagram
 
-•Can Add your own user data to check
+	•Can Add your own user data to check
 
 
 # Tech Used
