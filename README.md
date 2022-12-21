@@ -24,7 +24,7 @@ The following steps will guide you to create Virtutal Environment and this code 
 	
 For instance, my directory is E:\FPD
 
-Note: You Must have Installed Python and Django In Your Device
+**Note: You Must have Installed Python and Django In Your Device**
 
 Step 1- creating virtutal environment as myvenv:- E:\FPD>python -m venv myvenv \
 Step 2- activating virtual environment:- E:\FPD>myvenv\Scripts\activate \
