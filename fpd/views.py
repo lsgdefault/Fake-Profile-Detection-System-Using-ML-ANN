@@ -14,8 +14,8 @@ L = instaloader.Instaloader()
 
 # Enter Instagram Account credentials In order to get Instagram Data
 
-user = ""
-password = ""
+user = "valorant.pointshop"
+password = "keval6946"
 L.login(user, password)
 
 def Index(request):
