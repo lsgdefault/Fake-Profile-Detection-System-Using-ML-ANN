@@ -10,13 +10,13 @@ import instaloader
 Bearer_Token = "AAAAAAAAAAAAAAAAAAAAAKWjjQEAAAAAsOVpA5youCKrglMHuvoSa8rmsnI%3DNx2ixggog1OJQreK7xCgdp0lyCrpZD9QkajBQDAjensrL8fQOb"
 seed(1)
 
-L = instaloader.Instaloader()
+#L = instaloader.Instaloader()
 
 # Enter Instagram Account credentials In order to get Instagram Data
 
-user = "valorant.pointshop"
-password = "keval6946"
-L.login(user, password)
+#user = "valorant.pointshop"
+#password = "keval6946"
+#L.login(user, password)
 
 def Index(request):
     return render(request,"fpd/detect.html")
